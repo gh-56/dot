@@ -129,6 +129,8 @@ alias c.tmux="cd ~ && nvim ~/.tmux.conf"
 alias c.wez="cd /mnt/c/Users/gh56/ && nvim .wezterm.lua"
 alias c.zebar="cd /mnt/c/Users/gh56/.glzr/zebar/starter/ && nvim ."
 
+alias obsidian="nvim ~/GoogleDrive/promenadeforGH"
+
 alias start-mongodb="sudo systemctl start mongod"
 alias status-mongodb="sudo systemctl status mongod"
 alias stop-mongodb="sudo systemctl stop mongod"
@@ -150,3 +152,5 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

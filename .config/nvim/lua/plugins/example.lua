@@ -9,6 +9,16 @@ if true then return {} end
 -- * disable/enabled LazyVim plugins
 -- * override the configuration of LazyVim plugins
 return {
+
+  {
+    "folke/snacks.nvim",
+    priority = 1000,
+    lazy = false,
+    opts = {
+      image = { enabled = true },
+      -- 기타 다른 모듈은 필요에 따라
+    },
+  },
   --  {
   --    "folke/snacks.nvim",
   --    opts = {
